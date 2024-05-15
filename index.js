@@ -5,4 +5,4 @@ app.listen(5001, () => console.log("API is running on port"))
 
 app.get('/pop', (req,res) => res.json('My API running'))
 
-app.push('/name', (req,res) => res.json('chitti robot 1.0'))
+app.get('/name', (req,res) => res.json('chitti robot 1.0'))
